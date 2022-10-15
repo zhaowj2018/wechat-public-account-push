@@ -156,7 +156,7 @@ const USER_CONFIG = {
           // 这里设置一个日期，用来作为判断课表是否单双周的依据
           date: '2022-09-23',
           // 该日期是否为单周
-          isOdd: false,
+          isOdd: true,
         },
         // 课表
         courses: {
@@ -378,7 +378,7 @@ const USER_CONFIG = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 3,
 
   /** 日期相关 */
 
