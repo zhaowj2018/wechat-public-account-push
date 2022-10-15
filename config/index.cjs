@@ -14,12 +14,12 @@ const USER_CONFIG = {
   // 使用微信测试号时才需要填写：公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: '',
+  APP_ID: 'wx67193b91fc9490fc',
 
   // 使用微信测试号时才需要填写：公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: '',
+  APP_SECRET:  'e3d8faff79acb55fbfc9654d04558519',
 
   // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -103,19 +103,19 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '老婆0',
+      name: '小秋老婆',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: '',
+      id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '',
+      useTemplateId: 'wvFAnfm0A_9pc5SGj2ToCoMJhPeHECY70zjV5LwWj64', 
       // 所在省份或城市，也可以不填
-      province: '惠州',
+      province: '徐州',
       // 所在城市或县区
-      city: '惠阳',
+      city: '徐州',
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '01-05',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -124,25 +124,25 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '1996', date: '09-09',
+          type: '*生日', name: '老婆', year: '1988', date: '01-05',
         },
         {
-          type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '结婚纪念日', year: '2022', date: '09-24',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '小赵', year: '1992', date: '02-29',
         },
         {
-          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+          type: '节日', name: '被搭讪纪念日', year: '2022', date: '09-18',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2022-09-24' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2022-09-18' },
         // 退伍日
         { keyword: 'ex_day', date: '2022-09-10' }
       ],
@@ -261,7 +261,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: '_MOM4xKuhGlJL37k7cUfMJjFlBfih0WUWrdOsFg1w_8',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -270,7 +270,7 @@ const USER_CONFIG = {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: '',
+      id:'oqaJU6v_jlRfO66tHNfpKKa4DmsI',
     }
     // 你可以不断按格式往下增加
     // ...
