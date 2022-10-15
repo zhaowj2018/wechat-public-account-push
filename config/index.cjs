@@ -103,7 +103,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '小秋老婆',
+      name: '小秋',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
@@ -213,7 +213,7 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '老婆1',
+      name: '同事1',
       id: '',
       useTemplateId: '',
       province: '',
@@ -226,7 +226,7 @@ const USER_CONFIG = {
       courseSchedule: null
     },
     {
-      name: '老婆2',
+      name: '同事2',
       id: '',
       useTemplateId: '',
       province: '',
@@ -239,7 +239,7 @@ const USER_CONFIG = {
       courseSchedule: null
     },
     {
-      name: '老婆3',
+      name: '同事3',
       id: '',
       useTemplateId: '',
       province: '',
