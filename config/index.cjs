@@ -109,7 +109,7 @@ const USER_CONFIG = {
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'kgnz0GJ-VzqLPEn94eNwxrvfVUGc2fV95qzuqYBSDJs', 
+      useTemplateId: 'hRiQgiU2Lxvs9jV29UQ9R-YK38wt8TAxuaB-P4rv-BQ', 
       // 所在省份或城市，也可以不填
       province: '江苏',
       // 所在城市或县区
@@ -124,17 +124,17 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '生日', name: '小秋', year: '1988', date: '01-05',
+          type: '*生日', name: '小秋农历', year: '1988', date: '11-16',
         },
         {
-          type: '节日', name: '恋爱纪念日', year: '2022', date: '09-24',
+          type: '节日', name: '相恋纪念日', year: '2022', date: '09-24',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '小赵', year: '1992', date: '02-29',
+          type: '生日', name: '小秋阳历', year: '1992', date: '01-05',
         },
         {
-          type: '节日', name: '恋爱纪念日', year: '2022', date: '09-24',
+          type: '节日', name: '相识纪念日', year: '2022', date: '09-18',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -247,7 +247,19 @@ const USER_CONFIG = {
         }
       },
     },
-      ,
+    {
+      name: '同事1',
+      id: '',
+      useTemplateId: '',
+      province: '',
+      city: '',
+      horoscopeDate: '',
+      horoscopeDateType: '',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [],
+      customizedDateList: [],
+      courseSchedule: null
+    },
     {
       name: '同事2',
       id: '',
@@ -409,4 +421,3 @@ const USER_CONFIG = {
 }
 
 module.exports = USER_CONFIG
-
