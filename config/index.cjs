@@ -109,7 +109,7 @@ const USER_CONFIG = {
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '8vCQUG_8QWc4sJ91Kf6YrIBuGpXQ2LSWq4a14WPKNVQ', 
+      useTemplateId: 'hRiQgiU2Lxvs9jV29UQ9R-YK38wt8TAxuaB-P4rv-BQ', 
       // 所在省份或城市，也可以不填
       province: '江苏',
       // 所在城市或县区
@@ -119,7 +119,7 @@ const USER_CONFIG = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'https://s.weibo.com/top/summary?cate=realtimehot',
+      openUrl: 'https://mp.weixin.qq.com/s/QUQ4n_BI8i229W84HZhaAQ',
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -240,11 +240,7 @@ const USER_CONFIG = {
 '第3节 书法'            
 ],
             // 周六
-            [  '今天课多 老婆最棒',
-'第1节 语文',
-'第3节 道法',
-'第5节 劳动',
-'第7、8节 延时'    ],
+            [ ],
             // 周日
             [ ]
           ]
