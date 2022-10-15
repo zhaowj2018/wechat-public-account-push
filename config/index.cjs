@@ -124,14 +124,14 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '小秋', year: '1988', date: '01-05',
+          type: '*生日', name: '小秋', year: '1988', date: '11-16',
         },
         {
-          type: '节日', name: '结婚纪念日', year: '2022', date: '09-24',
+          type: '节日', name: '相恋纪念日', year: '2022', date: '09-24',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '小赵', year: '1992', date: '02-29',
+          type: '生日', name: '小秋', year: '1992', date: '01-05',
         },
         {
           type: '节日', name: '被搭讪纪念日', year: '2022', date: '09-18',
