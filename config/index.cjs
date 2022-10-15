@@ -249,7 +249,7 @@ const USER_CONFIG = {
       openUrl: 'https://wangxinleo.cn',
       festivals: [],
       customizedDateList: [],
-      courseSchedule: null
+      courseSchedule: [],
     }
     // 你可以不断按格式往下增加
     // ...
