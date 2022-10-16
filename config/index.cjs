@@ -109,7 +109,7 @@ const USER_CONFIG = {
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'jZb8AySlJ671ClEvF2jQGciS8vmIR3Idz0-XIic_P7M', 
+      useTemplateId: 'lrPGNKPuIxXOfL58yXldQtRTVqlW62xrgNaXH6ljpa8', 
       // 所在省份或城市，也可以不填
       province: '江苏',
       // 所在城市或县区
@@ -124,17 +124,17 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '小秋农历', year: '1988', date: '11-16',
+          type: '生日', name: '小秋', year: '1988', date: '01-05',
         },
         {
-          type: '节日', name: '相恋纪念日', year: '2022', date: '09-24',
+          type: '节日', name: '贴贴纪念日', year: '2022', date: '09-24',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '小秋阳历', year: '1992', date: '01-05',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2022', date: '09-18',
+          type: '节日', name: '贴贴纪念日', year: '2022', date: '09-24',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -198,7 +198,11 @@ const USER_CONFIG = {
 '第3节 书法'            
 ],
             // 周六
-            [ ],
+            [ '今天课多 老婆最棒',
+'第1节 语文',
+'第3节 道法',
+'第5节 劳动',
+'第7、8节 延时' ],
             // 周日
             [ ]
 
@@ -240,7 +244,11 @@ const USER_CONFIG = {
 '第3节 书法'            
 ],
             // 周六
-            [ ],
+            ['今天课多 老婆最棒',
+'第1节 语文',
+'第3节 道法',
+'第5节 劳动',
+'第7、8节 延时'  ],
             // 周日
             [ ]
           ]
