@@ -109,7 +109,7 @@ const USER_CONFIG = {
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'QtBC_3aZGGeX93ZNfDzKPx-VI9_w4PKOJSSXC_3ltpE', 
+      useTemplateId: 'xUmtcIvJ-DUOecXox_sEN7M4ggTCR5vi_7VLup98aF8', 
       // 所在省份或城市，也可以不填
       province: '江苏',
       // 所在城市或县区
@@ -250,7 +250,7 @@ const USER_CONFIG = {
     {
       name: '老公',
       id: 'oqaJU6pAiQuHgFC4tuQSAoIKN8hA',
-      useTemplateId: '	QtBC_3aZGGeX93ZNfDzKPx-VI9_w4PKOJSSXC_3ltpE',
+      useTemplateId: 'xUmtcIvJ-DUOecXox_sEN7M4ggTCR5vi_7VLup98aF8',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
