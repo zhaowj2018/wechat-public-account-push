@@ -103,7 +103,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '小秋',
+      name: '小秋1',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
       id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
@@ -258,9 +258,9 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '小秋',
+      name: '小秋2',
       id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
-      useTemplateId: '-5F9BqrR6xGG_2LuDLQWI4dnQyyTgtpik878HKyhWnw',
+      useTemplateId: 'Hc2LmkZ2iPiGgGkzwfAkK8EJu2s5pS5abs2DxZWAm3M',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
@@ -556,7 +556,7 @@ const USER_CONFIG = {
     {
       name: '小赵',
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
-      useTemplateId: '-5F9BqrR6xGG_2LuDLQWI4dnQyyTgtpik878HKyhWnw',
+      useTemplateId: 'Hc2LmkZ2iPiGgGkzwfAkK8EJu2s5pS5abs2DxZWAm3M',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
