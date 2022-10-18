@@ -106,10 +106,10 @@ const USER_CONFIG = {
       name: '小秋',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
+      id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'cAv59zZbashDJA6jn_IXBv9ue0OgPd26059ICHCW3Js', 
+      useTemplateId: 'SH7pD7gJVLtoD7ObptFwEXJJsqzErNRJbSUIrZT_DYI', 
       // 所在省份或城市，也可以不填
       province: '江苏',
       // 所在城市或县区
@@ -258,9 +258,9 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '小赵',
-      id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
-      useTemplateId: 'Uuh3mEfoHdzXDZWEUw5Kg5n-3Cr8lW48OhevxO1unCo',
+      name: '小秋',
+      id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
+      useTemplateId: '6lwv7SiVEMzAHvss0iFZSAxtYjIfROxLDyfBlAm08Ck',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
@@ -408,7 +408,7 @@ const USER_CONFIG = {
     {
       name: '小赵',
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
-      useTemplateId: 'cAv59zZbashDJA6jn_IXBv9ue0OgPd26059ICHCW3Js',
+      useTemplateId: 'SH7pD7gJVLtoD7ObptFwEXJJsqzErNRJbSUIrZT_DYI',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
