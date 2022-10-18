@@ -109,7 +109,7 @@ const USER_CONFIG = {
       id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'SH7pD7gJVLtoD7ObptFwEXJJsqzErNRJbSUIrZT_DYI', 
+      useTemplateId: 'NiuygK8KKESygUYo4ArCQSSiWlo4X2bGRWtEys5CqoA', 
       // 所在省份或城市，也可以不填
       province: '江苏',
       // 所在城市或县区
@@ -260,7 +260,7 @@ const USER_CONFIG = {
     {
       name: '小秋',
       id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
-      useTemplateId: '6lwv7SiVEMzAHvss0iFZSAxtYjIfROxLDyfBlAm08Ck',
+      useTemplateId: '-5F9BqrR6xGG_2LuDLQWI4dnQyyTgtpik878HKyhWnw',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
@@ -408,7 +408,155 @@ const USER_CONFIG = {
     {
       name: '小赵',
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
-      useTemplateId: 'SH7pD7gJVLtoD7ObptFwEXJJsqzErNRJbSUIrZT_DYI',
+      useTemplateId: 'NiuygK8KKESygUYo4ArCQSSiWlo4X2bGRWtEys5CqoA',
+      province: '江苏',
+      city: '徐州',
+      horoscopeDate: '01-05',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: 'https://mp.weixin.qq.com/s/QUQ4n_BI8i229W84HZhaAQ',
+       festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '生日', name: '小赵', year: '1992', date: '02-29',
+        },
+        {
+          type: '节日', name: '贴贴纪念日', year: '2022', date: '09-24',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前 没有 * 符号
+        {
+          type: '生日', name: '小秋', year: '1992', date: '01-05',
+        },
+        {
+          type: '节日', name: '贴贴纪念日', year: '2022', date: '09-24',
+        }
+      ],
+      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-09-24' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2022-09-18' },
+        // 退伍日
+        { keyword: 'ex_day', date: '2022-09-10' }
+      ],
+      // 课程表相关配置
+      // 如果courseSchedule不存在或者为空（null）则认为没有课程
+      // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
+      // 如果courseSchedule是一个对象（如下面所示）
+      courseSchedule: {
+        // 单双周的基准
+        benchmark: {
+          // 这里设置一个日期，用来作为判断课表是否单双周的依据
+          date: '2022-09-23',
+          // 该日期是否为单周
+          isOdd: true,
+        },
+        // 课表
+        courses: {
+          // 单周课表
+          // 从星期一到星期日（星期六和星期日的课表数组可不填写）
+          odd: [
+             [
+             '新的一周 老婆加油喔',
+'第1节|08:50-09:30|语文',
+'第6节|14:55-15:35|音乐'   
+],
+            // 周二
+            [
+            '晨读和午自习 老婆要早起',
+'第0节|08:20-08:40|早读',
+'第1节|08:50-09:30|语文',
+'第4节|11:20-11:55|道法',  
+'午0休|13:20-13:50|自习',
+'第5节|14:00-14:40|音乐',
+'第7节|15:45-17:30|延时'   
+ ],
+            // 周三
+            [
+             '老婆今天要值班 辛苦了',
+'第2节|09:40-10:20|语文',
+'第5节|14:00-14:40|习作',
+'第6节|14:55-15:35|习作'
+],
+            // 周四
+            [
+             '今天课多 老婆最棒',
+'第1节|08:50-09:30|语文',
+'第3节|10:30-11:10|道法',
+'第5节|14:00-14:40|劳动',
+'第7节|15:45-17:30|延时'
+           
+],
+            // 周五
+            [
+             '周末又可以见到老婆了',
+'第0节|08:20-08:40|早读',
+'第3节|10:30-11:10|书法',
+'午0休|13:20-13:50|自习'
+         
+],
+            // 周六
+            [ ],
+            // 周日
+            [ ]
+
+          ],
+          // 双周课表
+   
+          even: [
+             [
+             '新的一周 老婆加油喔',
+'第1节|08:50-09:30|语文',
+'第6节|14:55-15:35|音乐'   
+],
+            // 周二
+            [
+             '晨读和午自习 老婆要早起',
+'第0节|08:20-08:40|早读',
+'第1节|08:50-09:30|语文',
+'第4节|11:20-11:55|道法',  
+'午0休|13:20-13:50|自习',
+'第5节|14:00-14:40|音乐',
+'第7节|15:45-17:30|延时'   
+ ],
+            // 周三
+            [
+             '老婆今天要值班 辛苦了',
+'第2节|09:40-10:20|语文',
+'第5节|14:00-14:40|习作',
+'第6节|14:55-15:35|习作'
+],
+            // 周四
+            [
+             '今天课多 老婆最棒',
+'第1节|08:50-09:30|语文',
+'第3节|10:30-11:10|道法',
+'第5节|14:00-14:40|劳动',
+'第7节|15:45-17:30|延时'
+           
+],
+            // 周五
+            [
+             '周末又可以见到老婆了',
+'第0节|08:20-08:40|早读',
+'第3节|10:30-11:10|书法',
+'午0休|13:20-13:50|自习'
+         
+],
+            // 周六
+            [  ],
+            // 周日
+            []
+          ]
+        }
+      },
+    },
+    {
+      name: '小赵',
+      id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
+      useTemplateId: '-5F9BqrR6xGG_2LuDLQWI4dnQyyTgtpik878HKyhWnw',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
