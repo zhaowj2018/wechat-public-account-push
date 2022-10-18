@@ -260,7 +260,7 @@ const USER_CONFIG = {
     {
       name: '小赵',
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
-      useTemplateId: 'EsE2vXTiMPqr3TxdEJhCAYp40akt-njG2m8AB8KbPb0',
+      useTemplateId: 'Uuh3mEfoHdzXDZWEUw5Kg5n-3Cr8lW48OhevxO1unCo',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
