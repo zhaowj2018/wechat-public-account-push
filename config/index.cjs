@@ -260,7 +260,7 @@ const USER_CONFIG = {
     {
       name: '小秋2',
       id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
-      useTemplateId: 'Hc2LmkZ2iPiGgGkzwfAkK8EJu2s5pS5abs2DxZWAm3M',
+      useTemplateId: 'ag4CXyPyz__CyixoQB1YT8ktRHlVQ6MIAHYobpmqiWA',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
@@ -419,7 +419,7 @@ const USER_CONFIG = {
        festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '生日', name: '小赵', year: '1992', date: '02-29',
+          type: '*生日', name: '小秋农历', year: '1988', date: '11-16',
         },
         {
           type: '节日', name: '贴贴纪念日', year: '2022', date: '09-24',
@@ -556,7 +556,7 @@ const USER_CONFIG = {
     {
       name: '小赵',
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
-      useTemplateId: 'Hc2LmkZ2iPiGgGkzwfAkK8EJu2s5pS5abs2DxZWAm3M',
+      useTemplateId: 'ag4CXyPyz__CyixoQB1YT8ktRHlVQ6MIAHYobpmqiWA',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
