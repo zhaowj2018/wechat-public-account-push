@@ -14,7 +14,7 @@ const USER_CONFIG = {
   // 使用微信测试号时才需要填写：公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: 'wx67193b91fc9490fc++++++++++++++++++++此处删除++++++++',
+  APP_ID: 'wx67193b91fc9490fc',
 
   // 使用微信测试号时才需要填写：公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
@@ -170,7 +170,7 @@ const USER_CONFIG = {
 ],
             // 周二
             [
-             '晨读和午自习 老婆要早起',
+             '老婆今天有晨读和午自习',
 '第0节|08:20-08:40|早读',
 '第1节|08:50-09:30|语文',
 '第4节|11:20-11:55|道法',  
@@ -180,14 +180,14 @@ const USER_CONFIG = {
  ],
             // 周三
             [
-             '老婆今天要值班 辛苦了',
+             '老婆今天要值班呀',
 '第2节|09:40-10:20|语文',
 '第5节|14:00-14:40|习作',
 '第6节|14:55-15:35|习作'
 ],
             // 周四
             [
-             '今天课多 老婆最棒',
+             '老婆周四了，马上休息了',
 '第1节|08:50-09:30|语文',
 '第3节|10:30-11:10|道法',
 '第5节|14:00-14:40|劳动',
@@ -196,7 +196,7 @@ const USER_CONFIG = {
 ],
             // 周五
             [
-             '周末又可以见到老婆了',
+             '周末可以亲亲老婆了',
 '第0节|08:20-08:40|早读',
 '第3节|10:30-11:10|书法',
 '午0休|13:20-13:50|自习'
@@ -260,7 +260,7 @@ const USER_CONFIG = {
     {
       name: '小秋2',
       id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
-      useTemplateId: 'ag4CXyPyz__CyixoQB1YT8ktRHlVQ6MIAHYobpmqiWA寒假没课',
+      useTemplateId: 'ag4CXyPyz__CyixoQB1YT8ktRHlVQ6MIAHYobpmqiWA',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
@@ -557,7 +557,7 @@ const USER_CONFIG = {
     {
       name: '小赵',
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
-      useTemplateId: 'ag4CXyPyz__CyixoQB1YT8ktRHlVQ6MIAHYobpmqiWA寒假没课',
+      useTemplateId: 'ag4CXyPyz__CyixoQB1YT8ktRHlVQ6MIAHYobpmqiWA',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
