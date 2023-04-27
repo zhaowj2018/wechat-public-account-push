@@ -109,7 +109,7 @@ const USER_CONFIG = {
       id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '0TU1Xqio2KsU13uR9DeZsWK8-FB6CodmtkZbRJxz-2Q', 
+      useTemplateId: '7mXhPqKyACeXFO4zVpWp9bfcdayizxhAvIURs8p73O8', 
       // 所在省份或城市，也可以不填 日常版老婆早上好~  NiuygK8KKESygUYo4ArCQSSiWlo4X2bGRWtEys5CqoA   
       province: '江苏',
       // 所在城市或县区
@@ -127,7 +127,7 @@ const USER_CONFIG = {
           type: '生日', name: '小赵', year: '1992', date: '02-29',
         },
         {
-          type: '节日', name: '贴贴纪念日', year: '2022', date: '09-24',
+          type: '节日', name: '结婚纪念日', year: '2023', date: '03-29',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -260,7 +260,7 @@ const USER_CONFIG = {
     {
       name: '小秋2',
       id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
-      useTemplateId: 'ag4CXyPyz__CyixoQB1YT8ktRHlVQ6MIAHYobpmqiWA',
+      useTemplateId: 'EXUfZHTBfvmqAYok923ojJeAcm9oa4Y3p2Q2YAFpp00',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
@@ -274,7 +274,7 @@ const USER_CONFIG = {
           type: '生日', name: '小赵', year: '1992', date: '02-29',
         },
         {
-          type: '节日', name: '贴贴纪念日', year: '2022', date: '09-24',
+          type: '节日', name: '结婚纪念日', year: '2023', date: '03-29',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前 没有 * 符号
         {
@@ -408,7 +408,7 @@ const USER_CONFIG = {
     {
       name: '小赵',
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
-      useTemplateId: '0TU1Xqio2KsU13uR9DeZsWK8-FB6CodmtkZbRJxz-2Q', 
+      useTemplateId: '7mXhPqKyACeXFO4zVpWp9bfcdayizxhAvIURs8p73O8', 
       // 所在省份或城市，也可以不填 日常版老婆早上好~  NiuygK8KKESygUYo4ArCQSSiWlo4X2bGRWtEys5CqoA 
       province: '江苏',
       city: '徐州',
@@ -423,7 +423,7 @@ const USER_CONFIG = {
           type: '*生日', name: '小秋农历', year: '1988', date: '11-16',
         },
         {
-          type: '节日', name: '贴贴纪念日', year: '2022', date: '09-24',
+          type: '节日', name: '结婚纪念日', year: '2023', date: '03-29',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前 没有 * 符号
         {
@@ -557,7 +557,7 @@ const USER_CONFIG = {
     {
       name: '小赵',
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
-      useTemplateId: 'ag4CXyPyz__CyixoQB1YT8ktRHlVQ6MIAHYobpmqiWA',
+      useTemplateId: 'EXUfZHTBfvmqAYok923ojJeAcm9oa4Y3p2Q2YAFpp00',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
@@ -571,7 +571,7 @@ const USER_CONFIG = {
           type: '生日', name: '小赵', year: '1992', date: '02-29',
         },
         {
-          type: '节日', name: '贴贴纪念日', year: '2022', date: '09-24',
+          type: '节日', name: '结婚纪念日', year: '2023', date: '03-29',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前 没有 * 符号
         {
