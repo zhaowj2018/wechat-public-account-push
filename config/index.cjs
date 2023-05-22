@@ -260,7 +260,7 @@ const USER_CONFIG = {
     {
       name: '小秋2',
       id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
-      useTemplateId: 'A516yPF-snWylml4o5rCgOvSU0sbN16H0KWJezlEt_c',
+      useTemplateId: 'eN37ZOwS3nE2SbPk8jkQ3EhrfEGf2ePhmLQKdPXBph8',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
@@ -555,9 +555,9 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '小赵',
+      name: '小赵2',
       id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
-      useTemplateId: 'A516yPF-snWylml4o5rCgOvSU0sbN16H0KWJezlEt_c',
+      useTemplateId: 'eN37ZOwS3nE2SbPk8jkQ3EhrfEGf2ePhmLQKdPXBph8',
       province: '江苏',
       city: '徐州',
       horoscopeDate: '01-05',
