@@ -106,7 +106,7 @@ const USER_CONFIG = {
       name: '小秋1',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
+      id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU小秋',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: '7mXhPqKyACeXFO4zVpWp9bfcdayizxhAvIURs8p73O8', 
@@ -259,7 +259,7 @@ const USER_CONFIG = {
     },
     {
       name: '小秋2',
-      id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU',
+      id: 'oqaJU6lSbQW8lebUP5Roxv2OAejU小秋',
       useTemplateId: 'eN37ZOwS3nE2SbPk8jkQ3EhrfEGf2ePhmLQKdPXBph8',
       province: '江苏',
       city: '徐州',
@@ -407,7 +407,7 @@ const USER_CONFIG = {
     },
     {
       name: '小赵',
-      id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
+      id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0小秋',
       useTemplateId: '7mXhPqKyACeXFO4zVpWp9bfcdayizxhAvIURs8p73O8', 
       // 所在省份或城市，也可以不填 日常版老婆早上好~  NiuygK8KKESygUYo4ArCQSSiWlo4X2bGRWtEys5CqoA 
       province: '江苏',
@@ -556,7 +556,7 @@ const USER_CONFIG = {
     },
     {
       name: '小赵2',
-      id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0',
+      id: 'oqaJU6un2vRycRnVvl1f1v1Z7Rk0小秋',
       useTemplateId: 'eN37ZOwS3nE2SbPk8jkQ3EhrfEGf2ePhmLQKdPXBph8',
       province: '江苏',
       city: '徐州',
